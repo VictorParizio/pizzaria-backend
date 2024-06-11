@@ -30,7 +30,7 @@ CREATE TABLE order_product (
 
 CREATE TABLE testimonials (
     testimonial_id SERIAL PRIMARY KEY,
-    user_id INT REFERENCES users(user_id)
+    user_id INT REFERENCES users(user_id),
     name TEXT NOT NULL,
     rating VARCHAR(10) NOT NULL,
     testimonial TEXT NOT NULL
