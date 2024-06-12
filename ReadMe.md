@@ -1,4 +1,4 @@
-# Sistema de Pedido Online para Pizzaria
+# Back-End do Sistema de Pedido Online para Pizzaria
 
 ![Node](https://img.shields.io/badge/Node-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
