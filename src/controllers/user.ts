@@ -1,16 +1,7 @@
 import { Request, Response } from "express";
-import { addData, getData, listData } from "../repositories/queries";
+import { addData, getData } from "../repositories/queries";
 import { comparePassword, encryptPassword } from "../utils/encrypt";
 import { generateToken } from "../utils/jwt";
-
-const listUsers = async (req: Request, res: Response) => {
-  try {
-    const getedUsers = await listData("users");
-    return res.status(200).json(getedUsers);
-  } catch (err: any) {
-    return res.status(500).json({ message: err.message });
-  }
-};
 
 const registerUser = async (req: Request, res: Response) => {
   const { name, email, password } = req.body;
@@ -74,4 +65,4 @@ const loginUser = async (req: Request, res: Response) => {
   }
 };
 
-export { listUsers, registerUser, loginUser };
+export { registerUser, loginUser };
