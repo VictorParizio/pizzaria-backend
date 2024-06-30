@@ -1,1 +1,0 @@
-{"version":3,"file":"useRouter.js","sourceRoot":"","sources":["../../src/routes/useRouter.ts"],"names":[],"mappings":";;AAAA,qCAAiC;AACjC,8CAAyE;AAEzE,MAAM,KAAK,GAAG,IAAA,gBAAM,GAAE,CAAC;AAEvB,KAAK,CAAC,GAAG,CAAC,UAAU,EAAE,gBAAS,CAAC,CAAC;AACjC,KAAK,CAAC,IAAI,CAAC,UAAU,EAAE,mBAAY,CAAC,CAAC;AACrC,KAAK,CAAC,IAAI,CAAC,QAAQ,EAAE,gBAAS,CAAC,CAAC;AAEhC,kBAAe,KAAK,CAAC"}
