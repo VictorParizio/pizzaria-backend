@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { addData, getData } from "../repositories/queries";
+import { addData, getData, listData } from "../repositories/queries";
 import { comparePassword, encryptPassword } from "../utils/encrypt";
 import { generateToken } from "../utils/jwt";
 
@@ -65,4 +65,13 @@ const loginUser = async (req: Request, res: Response) => {
   }
 };
 
-export { registerUser, loginUser };
+const listUser = async (req: Request, res: Response) => {
+  try {
+    const listUsers = await listData("users");
+    return res.status(200).json(listUsers);
+  } catch (err: any) {
+    return res.status(500).json({ message: err.message });
+  }
+};
+
+export { registerUser, loginUser, listUser };
