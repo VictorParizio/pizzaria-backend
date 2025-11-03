@@ -20,4 +20,3 @@ export const dataBaseConnection: Knex = knex({
   client: "pg",
   connection: connectionConfig,
 });
-

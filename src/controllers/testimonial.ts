@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import { listData } from "../repositories/queries";
 
-const listTestimonial = async (req: Request, res: Response) => {
+const listTestimonial = async (_: Request, res: Response) => {
   try {
     const getedTestimonial = await listData("testimonials");
     return res.status(200).json(getedTestimonial);

@@ -65,7 +65,7 @@ const loginUser = async (req: Request, res: Response) => {
   }
 };
 
-const listUser = async (req: Request, res: Response) => {
+const listUser = async (_: Request, res: Response) => {
   try {
     const listUsers = await listData("users");
     return res.status(200).json(listUsers);

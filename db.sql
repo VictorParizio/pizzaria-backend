@@ -38,21 +38,21 @@ CREATE TABLE testimonials (
 
 INSERT INTO products (product_name, product_description, product_price, product_image_url)
 VALUES
-  ('Bacon com Milho', 'Pizza com molho de tomate, mozarela, bacon, milho e cebola.', '29.99', 'https://raw.githubusercontent.com/VictorParizio/images-pizza/main/pizzas/BaconMilho.jpeg'),
-  ('Calabresa', 'Saborosa pizza com molho de tomate, mozarela, calabresa, cebola e azeitonas.', '26.99', 'https://raw.githubusercontent.com/VictorParizio/images-pizza/main/pizzas/Calabresa.jpeg'),
-  ('Camarão com Catupiry', 'Pizza com molho de tomate, mozarela, camarão, catupiry e cebola.', '35.99', 'https://raw.githubusercontent.com/VictorParizio/images-pizza/main/pizzas/CamaraoCatupiry.jpeg'),
-  ('Frango com Catupiry', 'Uma opção cremosa com molho de tomate, mozarela, frango desfiado e catupiry.', '28.99', 'https://raw.githubusercontent.com/VictorParizio/images-pizza/main/pizzas/FrangoCatupiry.jpeg'),
-  ('Margherita', 'Clássica pizza italiana com molho de tomate, mozarela e manjericão fresco.', '25.99', 'https://raw.githubusercontent.com/VictorParizio/images-pizza/main/pizzas/Margherita.jpeg'),
-  ('Margherita Especial', 'Versão especial da clássica Margherita, com mozarela de búfala e manjericão fresco.', '31.99', 'https://raw.githubusercontent.com/VictorParizio/images-pizza/main/pizzas/MargheritaEspecial.jpeg'),
-  ('Mexicana', 'Pizza com molho de tomate, mozarela, carne moída, pimenta jalapeño, pimentão e cebola.', '33.99', 'https://raw.githubusercontent.com/VictorParizio/images-pizza/main/pizzas/Mexicana.jpeg'),
-  ('Napolitana', 'Pizza com molho de tomate, mozarela, tomate em rodelas, azeitonas e manjericão fresco.', '30.99', 'https://raw.githubusercontent.com/VictorParizio/images-pizza/main/pizzas/Napolitana.jpeg'),
-  ('Pepperoni', 'Uma explosão de sabor com molho de tomate, mozarela e fatias generosas de pepperoni.', '27.99', 'https://raw.githubusercontent.com/VictorParizio/images-pizza/main/pizzas/Pepperoni.jpeg'),
-  ('Portuguesa', 'Tradicional pizza com molho de tomate, mozarela, presunto, mussarela, ovo, cebola e azeitonas.', '30.99', 'https://raw.githubusercontent.com/VictorParizio/images-pizza/main/pizzas/Portuguesa.jpeg'),
-  ('Quatro Queijos', 'Deliciosa combinação de molho de tomate, mozarela, gorgonzola, parmesão e provolone.', '29.99', 'https://raw.githubusercontent.com/VictorParizio/images-pizza/main/pizzas/QuatroQueijos.jpeg'),
-  ('Rúcula com Tomate Seco', 'Pizza com molho de tomate, mozarela, rúcula e tomate seco.', '32.99', 'https://raw.githubusercontent.com/VictorParizio/images-pizza/main/pizzas/RuculaTomateSeco.jpeg'),
-  ('Siciliana', 'Pizza com molho de tomate, mozarela, aliche, orégano e azeitonas.', '31.99', 'https://raw.githubusercontent.com/VictorParizio/images-pizza/main/pizzas/Siciliana.jpeg'),
-  ('Toscana', 'Pizza com molho de tomate, mozarela, calabresa, bacon e cebola.', '28.99', 'https://raw.githubusercontent.com/VictorParizio/images-pizza/main/pizzas/Toscana.jpeg'),
-  ('Vegetariana', 'Saborosa opção vegetariana com molho de tomate, mozarela, pimentão, cebola, tomate, azeitonas e ervilhas.', '27.99', 'https://raw.githubusercontent.com/VictorParizio/images-pizza/main/pizzas/Vegetariana.jpeg');
+  ('Bacon com Milho', 'Pizza com molho de tomate, mozarela, bacon, milho e cebola.', '29.99', 'https://raw.githubusercontent.com/vmpariziog/assets/refs/heads/main/pizzas/BaconMilho.jpeg'),
+  ('Calabresa', 'Saborosa pizza com molho de tomate, mozarela, calabresa, cebola e azeitonas.', '26.99', 'https://raw.githubusercontent.com/vmpariziog/assets/refs/heads/main/pizzas/Calabresa.jpeg'),
+  ('Camarão com Catupiry', 'Pizza com molho de tomate, mozarela, camarão, catupiry e cebola.', '35.99', 'https://raw.githubusercontent.com/vmpariziog/assets/refs/heads/main/pizzas/CamaraoCatupiry.jpeg'),
+  ('Frango com Catupiry', 'Uma opção cremosa com molho de tomate, mozarela, frango desfiado e catupiry.', '28.99', 'https://raw.githubusercontent.com/vmpariziog/assets/refs/heads/main/pizzas/FrangoCatupiry.jpeg'),
+  ('Margherita', 'Clássica pizza italiana com molho de tomate, mozarela e manjericão fresco.', '25.99', 'https://raw.githubusercontent.com/vmpariziog/assets/refs/heads/main/pizzas/Margherita.jpeg'),
+  ('Margherita Especial', 'Versão especial da clássica Margherita, com mozarela de búfala e manjericão fresco.', '31.99', 'https://raw.githubusercontent.com/vmpariziog/assets/refs/heads/main/pizzas/MargheritaEspecial.jpeg'),
+  ('Mexicana', 'Pizza com molho de tomate, mozarela, carne moída, pimenta jalapeño, pimentão e cebola.', '33.99', 'https://raw.githubusercontent.com/vmpariziog/assets/refs/heads/main/pizzas/Mexicana.jpeg'),
+  ('Napolitana', 'Pizza com molho de tomate, mozarela, tomate em rodelas, azeitonas e manjericão fresco.', '30.99', 'https://raw.githubusercontent.com/vmpariziog/assets/refs/heads/main/pizzas/Napolitana.jpeg'),
+  ('Pepperoni', 'Uma explosão de sabor com molho de tomate, mozarela e fatias generosas de pepperoni.', '27.99', 'https://raw.githubusercontent.com/vmpariziog/assets/refs/heads/main/pizzas/Pepperoni.jpeg'),
+  ('Portuguesa', 'Tradicional pizza com molho de tomate, mozarela, presunto, mussarela, ovo, cebola e azeitonas.', '30.99', 'https://raw.githubusercontent.com/vmpariziog/assets/refs/heads/main/pizzas/Portuguesa.jpeg'),
+  ('Quatro Queijos', 'Deliciosa combinação de molho de tomate, mozarela, gorgonzola, parmesão e provolone.', '29.99', 'https://raw.githubusercontent.com/vmpariziog/assets/refs/heads/main/pizzas/QuatroQueijos.jpeg'),
+  ('Rúcula com Tomate Seco', 'Pizza com molho de tomate, mozarela, rúcula e tomate seco.', '32.99', 'https://raw.githubusercontent.com/vmpariziog/assets/refs/heads/main/pizzas/RuculaTomateSeco.jpeg'),
+  ('Siciliana', 'Pizza com molho de tomate, mozarela, aliche, orégano e azeitonas.', '31.99', 'https://raw.githubusercontent.com/vmpariziog/assets/refs/heads/main/pizzas/Siciliana.jpeg'),
+  ('Toscana', 'Pizza com molho de tomate, mozarela, calabresa, bacon e cebola.', '28.99', 'https://raw.githubusercontent.com/vmpariziog/assets/refs/heads/main/pizzas/Toscana.jpeg'),
+  ('Vegetariana', 'Saborosa opção vegetariana com molho de tomate, mozarela, pimentão, cebola, tomate, azeitonas e ervilhas.', '27.99', 'https://raw.githubusercontent.com/vmpariziog/assets/refs/heads/main/pizzas/Vegetariana.jpeg');
     
 INSERT INTO testimonials (user_id, name, rating, testimonial) VALUES
 (1, 'Maria Silva', '⭐⭐⭐⭐⭐', 'A PizzarIA realmente superou minhas expectativas! Nunca imaginei que uma inteligência artificial pudesse criar pizzas tão saborosas.'),
